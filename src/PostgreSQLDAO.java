@@ -5,9 +5,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by artemsolonin on 12.05.2017.
- */
+
 public class PostgreSQLDAO {
     public PostgreSQLDAO(Connection connection) {
 
