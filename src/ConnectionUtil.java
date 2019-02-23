@@ -17,6 +17,8 @@ public class ConnectionUtil {
             Logger.getLogger(PostgreSQLDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
+
+
     public static Connection getConnection() {
         Connection connection = null;
         try {
